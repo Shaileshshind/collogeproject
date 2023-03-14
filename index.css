@@ -1,0 +1,214 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: shailesh;
+}
+
+@font-face {
+    font-family: shailesh;
+    src: url('/font/EBGaramond-VariableFont_wght.ttf');
+}
+nav {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 14px;
+    word-spacing: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+    nav a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.float-right{
+    float: right;
+}
+.btn{
+    padding: 5px 10px 5px 10px;
+}
+
+.btn-primary{
+    background-color: rgb(39, 39, 153);
+    cursor: pointer;
+
+}
+.btn-warning{
+    background-color: rgb(185, 127, 20);
+    cursor: pointer;
+}
+.tex{
+    width: 100%;
+    height: 500px;
+    /* background-image: url(/img/Screenshot\ 2023-02-09\ 062950.png); */
+   background-image: url(/img/col.jpg);
+  /* background-color: rgba(16, 34, 128, 1); */
+  background-position: center;
+  /* filter: brightness(50%); */
+  background-size: cover;
+  background-repeat: no-repeat; 
+  /* background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  ); */
+}
+
+#row{
+ display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  /* box-shadow: 0px 10px 20px rgba(171, 171, 171, 0.25); */
+  
+}
+/*.col2{
+    width: 50%;
+
+}
+.col3{
+    width: 33.33%;
+    
+}
+.col4{
+    width: 25%;
+
+} */
+
+.card{
+     box-shadow: 0px 10px 20px rgba(171, 171, 171, 0.25); 
+    padding: 10px;
+    /* margin-left: 10px; */
+    border-radius: 10px;
+    margin: 20px;
+    background-color: white;
+    font-family: shailesh;
+    transition: 0.5s;
+}
+
+.text-center{
+ text-align: center;
+}
+ /* img{
+    margin-top: 50px;
+ } */
+.text-primary{
+    color: rgb(46, 46, 168);
+}
+.footer{
+    background-color: rgba(213, 206, 206, 0.674);
+    padding: 10px;
+}
+.wight{
+    color: black;
+}
+/* #row{
+     margin-top: 10px; 
+}
+ */
+
+.college{
+    margin-top: 30px;
+    padding-top: 30px;
+    font-size: 25px;
+    color:black
+}
+.college a{
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.color{
+    color: #c850c0;
+    font-family: shailesh;
+    cursor: pointer;
+}
+
+h1 a{
+    color: white;
+    text-decoration: none;
+    
+}
+.space{
+    padding-left: 10%;
+
+}
+.space a{
+    cursor: pointer;
+    padding: 20px;
+    
+    
+}
+
+
+.s{
+    padding-left: 10px;
+}
+.t{
+    padding-left: 10px;
+}
+
+.college{
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    font-family: shailesh;
+   
+
+}
+ .card  img{
+    box-sizing: border-box;
+    width: 100%;
+}
+.college h3{
+    color:springgreen;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 13%;
+    font-family: shailesh;
+}
+.college h3 a{
+    color:springgreen;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 13%;
+    font-family: shailesh;
+}
+.card:hover{
+    transform: scale(1.09);
+    /* color: #000000;
+    background-color: #c850c0; */
+    cursor: pointer;
+}
+.hover-contant:hover{
+    color: #000000;
+}
+.h3{
+    font-weight: 900;
+    color: black;
+}
+.fa-brands{
+    font-size: x-large;
+}
+.text-primary{
+    color: #000000;
+    text-decoration: none;
+    font-size: large;
+}
+
+
+
